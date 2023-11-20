@@ -1,0 +1,13 @@
+[package]
+name = "json_rust_parser"
+version = "0.2.0"
+edition = "2021"
+description = "A Rust JSON Parser for education purpose - Parses JSON files into a structured format and serializes JSON values."
+
+[dependencies]
+anyhow = "1.0.75"
+clap = { version = "4.4.8", features = ["derive"] }
+peg = "0.8.2"
+pest = "2.7.5"
+pest_derive = "2.7.5"
+
